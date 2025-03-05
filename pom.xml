@@ -4,7 +4,7 @@
 
 	<groupId>088633e0-029b-4fea-a51e-53fcbf0f6dc2</groupId>
 	<artifactId>demo-project</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.8</version>
 	<packaging>mule-application</packaging>
 
 	<name>demo-project</name>
@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.9.1</app.runtime>
+		<app.runtime>4.9.0</app.runtime>
 		<mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
 	</properties>
 
@@ -41,7 +41,7 @@
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.9.1</muleVersion>
+						<muleVersion>4.9.0</muleVersion>
 						<server>ca.anypoint.credentials</server>
 						<releaseChannel>Edge</releaseChannel>
 						<applicationName>demo-project-v1</applicationName>
