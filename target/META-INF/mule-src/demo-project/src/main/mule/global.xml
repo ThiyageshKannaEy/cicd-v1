@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<configuration-properties doc:name="Configuration properties" doc:id="9fb9beda-8379-477a-b53c-7c708dc4f835" file="properties\config.properties" />
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="f11ee612-5435-40de-be4d-788258d2a6cd" >
+		<http:listener-connection host="${http.host}" port="${http.port}" />
+	</http:listener-config>
+	<flow name="globalFlow" doc:id="a9bcd482-b8fa-42ed-9c87-b06e14df3024" >
+		<scheduler doc:name="Scheduler" doc:id="809dcb5e-2ed8-402b-a281-a6fe96074878" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="1" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+	</flow>
+
+</mule>

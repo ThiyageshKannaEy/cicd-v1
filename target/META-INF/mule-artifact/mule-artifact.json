@@ -1,0 +1,26 @@
+{
+  "configs": [
+    "global.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "088633e0-029b-4fea-a51e-53fcbf0f6dc2:demo-project:1.0.11",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "global.xml",
+        "log4j2.xml",
+        "properties/config.properties"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
