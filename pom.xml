@@ -4,7 +4,7 @@
 
 	<groupId>088633e0-029b-4fea-a51e-53fcbf0f6dc2</groupId>
 	<artifactId>demo-project</artifactId>
-	<version>1.0.12</version>
+	<version>1.0.13</version>
 	<packaging>mule-application</packaging>
 
 	<name>demo-project</name>
@@ -44,7 +44,7 @@
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.9.1</muleVersion>
+						<muleVersion>4.9.2</muleVersion>
 						<server>ca.anypoint.credentials</server>
 						<releaseChannel>Edge</releaseChannel>
 						<applicationName>demo-project-v1</applicationName>
