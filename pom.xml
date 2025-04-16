@@ -44,7 +44,7 @@
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.9.2</muleVersion>
+						<muleVersion>4.9.2:6e</muleVersion>
 						<server>ca.anypoint.credentials</server>
 						<releaseChannel>Edge</releaseChannel>
 						<applicationName>demo-project-v1</applicationName>
